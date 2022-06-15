@@ -9,6 +9,7 @@ module.exports = {
       options: path.join(srcDir, 'options.tsx'),
       background: path.join(srcDir, 'background.ts'),
       content_script: path.join(srcDir, 'content_script.tsx'),
+      confetti: path.join(srcDir, 'confetti.browser.min.js'), // custom js library script
     },
     output: {
         path: path.join(__dirname, "../dist/js"),
